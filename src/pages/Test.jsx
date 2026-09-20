@@ -129,8 +129,7 @@ function Test() {
         answers: finalAnswers,
       });
 
-      const response = await fetch(
-        "http://127.0.0.1:8000/api/evaluate",
+      const response = await fetch("https://context-switch-7gee.onrender.com/api/evaluate",
         {
           method: "POST",
           headers: {
